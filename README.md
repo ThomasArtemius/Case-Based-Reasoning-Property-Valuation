@@ -6,6 +6,7 @@ This is just a simple project using entirely on dummy data. We use Gower distanc
 $$
 D_{\text{Gower}}(x, y) = \frac{\sum_{j=1}^{p} w_j \cdot d_j(x_j, y_j)}{\sum_{j=1}^{p} w_j}
 $$
+
 \[
 \begin{aligned}
 \text{- } p     & : \text{Number of features} \\
