@@ -6,9 +6,13 @@ This is just a simple project using entirely on dummy data. We use Gower distanc
 $$
 D_{\text{Gower}}(x, y) = \frac{\sum_{j=1}^{p} w_j \cdot d_j(x_j, y_j)}{\sum_{j=1}^{p} w_j}
 $$
-- \( $p$ \): Number of features.
-- \( $w_j$ \): Feature weight (default=1).
-- \( $d_j$ \): Dissimilarity per feature type (numeric/categorical).
+\[
+\begin{aligned}
+\text{- } p     & : \text{Number of features} \\
+\text{- } w_j   & : \text{Feature weight (default = 1)} \\
+\text{- } d_j   & : \text{Dissimilarity per feature type (numeric/categorical)}
+\end{aligned}
+\]
 
 #### Numeric Features
 $$
