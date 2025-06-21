@@ -7,11 +7,11 @@ $$
 D_{\text{Gower}}(x, y) = \frac{\sum_{j=1}^{p} w_j \cdot d_j(x_j, y_j)}{\sum_{j=1}^{p} w_j}
 $$
 
-\begin{tabular}{ll}
-- \(p\) : & Number of features. \\
-- \(w_j\) : & Feature weight (default=1). \\
-- \(d_j\) : & Dissimilarity per feature type (numeric/categorical).
-\end{tabular}
+\begin{align*}
+- p \:& \text{Number of features.} \\
+- w_j \:& \text{Feature weight (default=1).} \\
+- d_j \:& \text{Dissimilarity per feature type (numeric/categorical).}
+\end{align*}
 
 #### Numeric Features
 $$
